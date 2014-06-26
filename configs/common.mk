@@ -31,7 +31,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGE_OVERLAYS += vendor/simpleaosp/overlays/common
 
 # Needed Packages
-PRODUCT_PACKAGES += \ 
+PRODUCT_PACKAGES += \
     Launcher3 \
     VoicePlus
 
