@@ -1,5 +1,5 @@
 # Local path for prebuilts
-LOCAL_PATH:= vendor/simepleaosp/prebuilts/common/system
+LOCAL_PATH:= vendor/simpleaosp/prebuilts/common/system
 
 # Generic product
 PRODUCT_NAME := simpleaosp
