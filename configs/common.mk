@@ -30,10 +30,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/simpleaosp/overlays/common
 
-# Needed Packages
-PRODUCT_PACKAGES += \
-    Launcher3 \
-    VoicePlus
+# Build launcher3
+PRODUCT_PACKAGES += Launcher3
 
 # Proprietary latinime lib needed for swyping
 PRODUCT_COPY_FILES += \
