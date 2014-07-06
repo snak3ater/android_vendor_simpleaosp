@@ -62,4 +62,4 @@ PRODUCT_COPY_FILES += \
 -include vendor/simpleaosp/configs/stockaudio.mk
 
 # T-Mobile theme engine
-include vendor/simpleaosp/configs/themes_common.mk
+-include vendor/simpleaosp/configs/themes_common.mk
