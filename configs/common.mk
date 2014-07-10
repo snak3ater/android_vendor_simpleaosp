@@ -32,8 +32,9 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/simpleaosp/overlays/common
 
 # Needed Packages
 PRODUCT_PACKAGES += \
-    Launcher3 \
-    VoicePlus
+    VoicePlus \
+    Trebuchet \
+    CMFileManager
 
 # Proprietary latinime lib needed for swyping
 PRODUCT_COPY_FILES += \
