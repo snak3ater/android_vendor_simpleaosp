@@ -58,8 +58,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/bootanimation.zip:system/media/bootanimation.zip
 
+# Cyanogenmod theme engine support
+PRODUCT_PACKAGES += \
+    ThemeChooser \
+    ThemesProvider
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/etc/permissions/com.tmobile.software.themes.xml:system/etc/permissions/com.tmobile.software.themes.xml \
+    $(LOCAL_PATH)/etc/permissions/org.cyanogenmod.theme.xml:system/etc/permissions/org.cyanogenmod.theme.xml
+
 # Inlcude stock audio makefile
 -include vendor/simpleaosp/configs/stockaudio.mk
-
-# Include theme engine makefile
--include vendor/simpleaosp/configs/themes_common.mk
