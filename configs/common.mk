@@ -61,5 +61,5 @@ PRODUCT_COPY_FILES += \
 # Inlcude stock audio makefile
 -include vendor/simpleaosp/configs/stockaudio.mk
 
-# T-Mobile theme engine
+# Include theme engine makefile
 -include vendor/simpleaosp/configs/themes_common.mk
