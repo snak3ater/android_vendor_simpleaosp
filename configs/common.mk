@@ -25,7 +25,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.rec_timeout=2500 \
     ro.facelock.lively_timeout=2500 \
     ro.facelock.est_max_time=600 \
-    ro.facelock.use_intro_anim=false
+    ro.facelock.use_intro_anim=false \
+    persist.sys.root_access=3
 
 # Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/simpleaosp/overlays/common
@@ -34,8 +35,14 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/simpleaosp/overlays/common
 PRODUCT_PACKAGES += \
     CMFileManager \
     CMHome \
+    Superuser \
+    su \
     Trebuchet \
     VoicePlus
+
+# Superuser support
+SUPERUSER_EMBEDDED := true
+SUPERUSER_PACKAGE_PREFIX := com.android.settings.cyanogenmod.superuser
 
 # Proprietary latinime lib needed for swyping
 PRODUCT_COPY_FILES += \
