@@ -37,6 +37,8 @@ PRODUCT_PACKAGES += \
     CMHome \
     Superuser \
     su \
+    ThemeChooser \
+    ThemesProvider \
     Trebuchet \
     VoicePlus
 
@@ -72,11 +74,7 @@ TARGET_BOOTANIMATION_PRELOAD := true
 TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 TARGET_BOOTANIMATION_USE_RGB565 := true
 
-# Cyanogenmod theme engine support
-PRODUCT_PACKAGES += \
-    ThemeChooser \
-    ThemesProvider
-
+# Theme engine permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/etc/permissions/com.tmobile.software.themes.xml:system/etc/permissions/com.tmobile.software.themes.xml \
     $(LOCAL_PATH)/etc/permissions/org.cyanogenmod.theme.xml:system/etc/permissions/org.cyanogenmod.theme.xml
