@@ -67,6 +67,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/bootanimation.zip:system/media/bootanimation.zip
 
+# Enable bootanimation enhancements
+TARGET_BOOTANIMATION_PRELOAD := true
+TARGET_BOOTANIMATION_TEXTURE_CACHE := true
+TARGET_BOOTANIMATION_USE_RGB565 := true
+
 # Cyanogenmod theme engine support
 PRODUCT_PACKAGES += \
     ThemeChooser \
