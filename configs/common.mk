@@ -1,10 +1,8 @@
+# Brand
+PRODUCT_BRAND ?= simpleaosp
+
 # Local path for prebuilts
 LOCAL_PATH:= vendor/simpleaosp/prebuilts/common/system
-
-# Generic product
-PRODUCT_NAME := simpleaosp
-PRODUCT_BRAND := simpleaosp
-PRODUCT_DEVICE := generic
 
 # Common build prop overrides 
 PRODUCT_PROPERTY_OVERRIDES += \
