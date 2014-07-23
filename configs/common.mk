@@ -35,6 +35,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/simpleaosp/overlays/common
 PRODUCT_PACKAGES += \
     CMFileManager \
     CMHome \
+    Stk \
     Superuser \
     su \
     ThemeChooser \
