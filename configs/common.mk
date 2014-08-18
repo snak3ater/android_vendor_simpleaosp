@@ -78,5 +78,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/etc/permissions/com.tmobile.software.themes.xml:system/etc/permissions/com.tmobile.software.themes.xml \
     $(LOCAL_PATH)/etc/permissions/org.cyanogenmod.theme.xml:system/etc/permissions/org.cyanogenmod.theme.xml
 
+# Cyanogenmod permissions
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/etc/permissions/com.cyanogenmod.android.xml:system/etc/permissions/com.cyanogenmod.android.xml
+
 # Inlcude stock audio makefile
 -include vendor/simpleaosp/configs/stockaudio.mk
