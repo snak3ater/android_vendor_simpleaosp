@@ -38,5 +38,14 @@ PRODUCT_COPY_FILES += \
 
 #G3 bionic patch
 PRODUCT_COPY_FILES += \
-vendor/simpleaosp/proprietary/mako/system/G3bionic/system/lib/libc.so:system/lib/libc.so \
-vendor/simpleaosp/proprietary/mako/system/G3bionic/system/lib/libm.so:system/lib/libm.so
+	vendor/simpleaosp/proprietary/mako/system/G3bionic/system/lib/libc.so:system/lib/libc.so \
+	vendor/simpleaosp/proprietary/mako/system/G3bionic/system/lib/libm.so:system/lib/libm.so
+
+# Z2 dalvik patch
+PRODUCT_COPY_FILES += \
+	vendor/simpleaosp/proprietary/mako/system/Z2dalvik/system/bin/dalvikvm:system/bin/dalvikvm \
+	vendor/simpleaosp/proprietary/mako/system/Z2dalvik/system/bin/dexopt:system/bin/dexopt \
+	vendor/simpleaosp/proprietary/mako/system/Z2dalvik/system/bin/installd:system/bin/installd \
+	vendor/simpleaosp/proprietary/mako/system/Z2dalvik/system/lib/libcutils.so:system/lib/libcutils.so \
+	vendor/simpleaosp/proprietary/mako/system/Z2dalvik/system/lib/libdvm.so:system/lib/libdvm.so \
+	vendor/simpleaosp/proprietary/mako/system/Z2dalvik/system/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so 
