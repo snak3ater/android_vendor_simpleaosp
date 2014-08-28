@@ -84,3 +84,8 @@ PRODUCT_COPY_FILES += \
 
 # Inlcude stock audio makefile
 -include vendor/simpleaosp/configs/stockaudio.mk
+
+# If simpleaosp_mako then inlclude mako extras makefile
+ifneq ($(filter simpleaosp_mako,$(TARGET_PRODUCT)),)
+ -include vendor/simpleaosp/configs/makoextras.mk
+endif
