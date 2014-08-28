@@ -35,3 +35,8 @@ PRODUCT_COPY_FILES += \
     vendor/simpleaosp/proprietary/mako/system/NewAdrenoDrivers/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/simpleaosp/proprietary/mako/system/NewAdrenoDrivers/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/simpleaosp/proprietary/mako/system/NewAdrenoDrivers/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so 
+
+#G3 bionic patch
+PRODUCT_COPY_FILES += \
+vendor/simpleaosp/proprietary/mako/system/G3bionic/system/lib/libc.so:system/lib/libc.so \
+vendor/simpleaosp/proprietary/mako/system/G3bionic/system/lib/libm.so:system/lib/libm.so
