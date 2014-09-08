@@ -31,7 +31,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/simpleaosp/overlays/common
 
 # Needed Packages
 PRODUCT_PACKAGES += \
-    CMFileManager \
     CMHome \
     Stk \
     Superuser \
