@@ -37,8 +37,7 @@ PRODUCT_PACKAGES += \
     su \
     ThemeChooser \
     ThemesProvider \
-    Trebuchet \
-    VoicePlus
+    Trebuchet
 
 # Superuser support
 SUPERUSER_EMBEDDED := true
